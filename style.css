@@ -2,19 +2,23 @@ html {
 	height: 100%;
 	width: 100%;
 }
-body{
-	background-color:#AEC5EB ;
+
+body {
+	background-color: #AEC5EB;
 }
-header{
+
+header {
 	background-color: #3a405a;
 	color: #ffffff;
 	text-align: center;
 	padding: 10px;
 }
+
 header h1 {
 	margin: 10px auto;
 	text-align: center;
 }
+
 .container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -22,5 +26,27 @@ header h1 {
 }
 
 .box {
-	border: 1px solid #000;
+	border: black 1px solid;
+	margin-top: 2px;
+}
+
+.box h2 {
+	margin-top: 0;
+	padding-top: 2px;
+	margin-bottom: 0;
+	padding-bottom: 0px;
+}
+
+hr {
+	margin-top: 0;
+	padding-top: 0;
+	border-color: black;
+}
+.container a{
+	text-decoration: none;
+	color: inherit;
+}
+p{
+
+	padding-left:10px;
 }
