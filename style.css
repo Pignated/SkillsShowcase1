@@ -21,13 +21,15 @@ header h1 {
 
 .container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 10px;
 }
 
 .box {
 	border: black 1px solid;
 	margin-top: 2px;
+	min-width: 300px;
+	min-height: 200px;
 }
 
 .box h2 {
@@ -42,11 +44,13 @@ hr {
 	padding-top: 0;
 	border-color: black;
 }
-.container a{
+
+.container a {
 	text-decoration: none;
 	color: inherit;
 }
-p{
 
-	padding-left:10px;
+p {
+
+	padding-left: 10px;
 }
